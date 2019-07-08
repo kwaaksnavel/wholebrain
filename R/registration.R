@@ -447,7 +447,7 @@ registration2<- function(input,
 
   #upsample the resize parameter
   resizeP<-resize*4
-
+  browser()
   #perform interpolation
   if(interpolation=='cpd'){
     if(is.null(intrp.param)){
